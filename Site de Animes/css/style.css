@@ -1,0 +1,179 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+.redes-sociais ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 4px;
+    margin-left: 14px;
+}
+.logo img, a img{
+    width: 25px;
+    height: 25px;
+}
+.redes-sociais{
+    width: 25%;
+    float: right;
+}
+.header-2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+ul{
+    padding: 0px !important;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+}
+.menu ul li a{
+    color: #252323;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #6BBDE1;
+}
+.menu ul li a:hover{
+    color: #6BBDE1;    
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.busca input{
+    background-image: url('pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border-color: 1px solid grey;
+    margin-top: 10px;
+    height: 28px;
+    padding: 5px;
+    width: 190px;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.menu-urls{
+    border-bottom: 3px solid grey;
+    height: 80px;
+
+}
+button.slick-prev{
+    display: inline-block;
+    font-size: 0;
+    left: 10%;
+    border: none;
+    height: 51px;
+    width: 37px;
+    background-color: transparent;
+    background-image: url('menor.png');
+    z-index: 9;
+    top: 35%;
+    position: absolute;
+}  
+button.slick-next{
+    display: inline-block;
+    right: 10%;
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 37px;
+    background-color: transparent;
+    background-image: url('maior.png');
+    z-index: 9;
+    top: 35%;
+    position: absolute;
+}
+.slider-principal{
+    width: 100%;
+    position: relative;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid #F6F1E8;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    margin-left: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 2px;
+}
+li.slick-active button{
+    background-color: #07020D;
+}
+.slick-inicialized{
+    overflow: hidden;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    left: 22%;
+    position: absolute;
+    left: 47%;
+    top: 93%;
+}
+.texto-destaque, h3{
+    text-align: center;
+}
+.texto-destaque h1, h3{
+    color: #1D1923;
+    text-transform: uppercase;
+}
+.texto-destaque p {
+    color: grey;
+    font-size: 15px;
+}
+.col-3{
+    display: inline-block;
+    padding: 5px;
+}
+.col-3 img{
+    width: 280px;
+    height: 440px;
+}
+.col-3 a {
+    color: #252323;
+    text-decoration: none;
+}
+.col-3 a h3:hover {
+    color: #6BBDE1;
+}
+.col-3 a img:hover{
+    opacity: 0.5;
+}
+
